@@ -9,7 +9,7 @@ class myNode(object):
 
 class myTree(object):
     def __init__(self):
-        self.root = myNode(250) #içine aldığı değer ağaç yapısının kökünü belirtir. değer belirtilmezse 0 olarak atar.
+        self.root = myNode(250) #iÃ§ine aldigi dege,  agac yapisinin kÃ¶kÃ¼nÃ¼ belirtir. deger belirtilmezse 0 olarak atar.
 
 def inorder(root):
     if root:
